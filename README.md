@@ -30,7 +30,7 @@ First, install openwebrx as usual. We desceribe how to compile and install codec
 Install the build dependencies and download, build and install the libmbe dependency:
 ```
 apt install git-core debhelper cmake libprotobuf-dev protobuf-compiler libcodecserver-dev
-git clone https://github.com/szechyjs/mbelib.git
+git clone https://github.com/py1tcm/mbelib.git
 cd mbelib
 dpkg-buildpackage
 cd ..
@@ -39,7 +39,7 @@ sudo dpkg -i libmbe1_1.3.0_*.deb libmbe-dev_1.3.0_*.deb
 
 Then, download, build and install codecserver-softmbe:
 ```
-git clone https://github.com/knatterfunker/codecserver-softmbe.git
+git clone https://github.com/py1tcm/codecserver-softmbe.git
 cd codecserver-softmbe
 dpkg-buildpackage
 cd ..
